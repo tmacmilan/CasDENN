@@ -1,7 +1,7 @@
 import numpy as np
 import six.moves.cPickle as pickle
 #from model import config
-import config_APS_1 as config
+import config_weibo_1 as config
 import networkx as nx
 import scipy.sparse
 import gc
@@ -186,6 +186,7 @@ def get_max_node_num(graphs):
 if __name__ == "__main__":
 
     ### data set ###
+    print('sss')
     graphs_train = sequence2list(config.shortestpath_train)
     graphs_val = sequence2list(config.shortestpath_val)
     graphs_test = sequence2list(config.shortestpath_test)

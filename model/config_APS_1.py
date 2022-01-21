@@ -1,5 +1,5 @@
 DATA_PATHA_pre = "../data/aps"
-DATA_PATHA = "../data/aps/aps_data_5"
+DATA_PATHA = "../data/aps/5years"
 cascades  = DATA_PATHA_pre+"/APS_preprocessing.txt"
 datasetName='aps_5years_'
 cascade_train = DATA_PATHA+"/cascade_train.txt"
