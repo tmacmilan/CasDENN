@@ -12,5 +12,5 @@ This is the data and code for paper submitted, titled 'Degree Distribution Evolu
 3:Run the model:
   (1) python gen_shortestpath.py  
   (2) python preprocess_graph_signal_degree.py  
-  (3) rnn_model_seq.ipynb （run in jupyter notebook） is about the vairants of deep learning models CasDENN.
+  (3) rnn_model.py is about the vairants of deep learning models CasDENN.
   where, 'import config_APS_1 as config' can import new config files.
